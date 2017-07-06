@@ -15,7 +15,7 @@ Topic :: Engineering
 Operating System :: POSIX
 Operating System :: Unix
 """
-NAME = "grep"
+NAME = "grepCM"
 MAJOR = 1
 MINOR = 0
 MICRO = 0
@@ -46,7 +46,7 @@ write_version_py()
 setup(
     name=NAME,
     version=VERSION,
-    packages=['grep'],
+    packages=['grepCM'],
     author="Christophe Morisset",
     author_email="chris.morisset@gmail.com",
     license="LGPL",
@@ -57,7 +57,7 @@ setup(
     platforms=["Linux", "Unix"],
     entry_points={
         'console_scripts': [
-            'grepCM = grep.grep:main'
+            'grepCM = grepCM.grepCM:main'
         ]
     }
 )
