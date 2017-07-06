@@ -19,7 +19,7 @@ NAME = "grepCM"
 MAJOR = 3
 MINOR = 2
 ISRELEASED = True
-VERSION = '%d.%d.%d' % (MAJOR, MINOR)
+VERSION = '%d.%d' % (MAJOR, MINOR)
 REVISION = 0 + int(os.popen("git rev-list --all | wc -l").read())
 
 
