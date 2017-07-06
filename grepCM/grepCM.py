@@ -137,10 +137,8 @@ class grep(object):
                             self.my_print(f, a, print_n, )
                     print('--')
                 print('----')
-        
-        
-if __name__ == '__main__':
-    
+
+def main():        
     parser = get_parser()
     args = parser.parse_args()
     g = grep(args.pattern, args.file, recursive=args.recursive,
@@ -148,3 +146,6 @@ if __name__ == '__main__':
              context=args.context)
     g.print_res(print_n=args.line_number, print_counts=args.count, 
                 files_with_matches=args.files_with_matches, invert_match=args.invert_match)
+        
+if __name__ == '__main__':
+    main()
