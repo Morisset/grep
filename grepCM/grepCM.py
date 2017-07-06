@@ -4,8 +4,7 @@ import os
 import argparse
 import re
 from glob import glob
-
-__version__ = "grep.py by Ch. Morisset, clase de Python, IA-UNAM 2015, version 3.2"
+import grepCM.version
 
 def get_parser():
     parser = argparse.ArgumentParser()
@@ -27,7 +26,7 @@ def get_parser():
                         help="Recursively search subdirectories listed.")
     parser.add_argument("-v", "--invert-match", action="store_true",
                         help="Selected lines are those not matching any of the specified patterns. Used only with -l")
-    parser.add_argument("-V", "--version", action="version", version=__version__,
+    parser.add_argument("-V", "--version", action="version", version=grepCM.version,
                         help="Display version information and exit.")
     parser.add_argument("-l", "--files-with-matches", action="store_true",
                         help="Only the names of files containing selected lines are written to standard output.")
