@@ -34,7 +34,7 @@ def get_parser():
 
 class grep(object):
     
-    __version__ = __version__
+    __version__ = version
 
     def __init__(self, pattern, fs, recursive=False, before=0, after=0, context=0):
         """
