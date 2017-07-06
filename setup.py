@@ -57,7 +57,7 @@ setup(
     platforms=["Linux", "Unix"],
     entry_points={
         'console_scripts': [
-            'grepCM = grepCM.grepCM:main'
+            'grepcm = grepCM.grepCM:main'
         ]
     }
 )
