@@ -17,7 +17,7 @@ Operating System :: Unix
 """
 NAME = "grepCM"
 MAJOR = 3
-MINOR = 2
+MINOR = 3
 ISRELEASED = True
 VERSION = '%d.%d' % (MAJOR, MINOR)
 REVISION = 0 + int(os.popen("git rev-list --all | wc -l").read())
