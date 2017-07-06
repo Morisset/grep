@@ -16,11 +16,10 @@ Operating System :: POSIX
 Operating System :: Unix
 """
 NAME = "grepCM"
-MAJOR = 1
-MINOR = 0
-MICRO = 0
-ISRELEASED = False
-VERSION = '%d.%d.%d' % (MAJOR, MINOR, MICRO)
+MAJOR = 3
+MINOR = 2
+ISRELEASED = True
+VERSION = '%d.%d.%d' % (MAJOR, MINOR)
 REVISION = 0 + int(os.popen("git rev-list --all | wc -l").read())
 
 
