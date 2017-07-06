@@ -4,7 +4,7 @@ import os
 import argparse
 import re
 from glob import glob
-from ..version import version
+from version import version
 
 def get_parser():
     parser = argparse.ArgumentParser()
