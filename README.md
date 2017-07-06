@@ -1,8 +1,8 @@
 # grep
 
-usage: grepcm [-h] [-A AFTER_CONTEXT] [-B BEFORE_CONTEXT] [-C CONTEXT] [-n]
-              [-c] [-r] [-v] [-V] [-l]
-              pattern file [file ...]
+    usage: grepcm [-h] [-A AFTER_CONTEXT] [-B BEFORE_CONTEXT] [-C CONTEXT] [-n]
+                  [-c] [-r] [-v] [-V] [-l]
+                  pattern file [file ...]
 
     positional arguments:
         pattern               pattern to search for.
